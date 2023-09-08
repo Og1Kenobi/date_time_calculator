@@ -1,0 +1,8 @@
+# date_time_calculator
+date_time_calculator.py is a Python script that calculates the time difference between two dates and times. It prompts the user to enter the starting and ending dates and times, validates the input format, and then calculates the time difference in years, months, weeks, days, hours, and minutes using the datetime module. If the input format is invalid, it raises a ValueError with an appropriate error message.
+
+date_time_calculator.c is a C program that calculates the time difference between two dates and times. It uses the struct TimeDifference to store the result and the functions validate_date and validate_time to validate the input format. The calculate_time_difference function calculates the time difference and returns a struct TimeDifference. The main function prompts the user to enter the dates and times, validates the input, and then calls the calculate_time_difference function to get the result. Finally, it prints the time difference.
+
+data_time_calculator is an HTML form that allows users to calculate the time difference between two dates and times. It uses Bootstrap for styling and includes a PHP code block to handle the form submission and calculate the time difference.
+When the form is submitted, the PHP code block retrieves the values of the input fields (start_date, start_time, end_date, end_time), creates DateTime objects from the input values, and calculates the time difference using the diff method. The result is then displayed in a <div> with the class result.
+Please note that this code should be run on a server with PHP support in order to function properly.
